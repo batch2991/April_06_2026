@@ -60,9 +60,6 @@ export class ProductsPage extends Base
      {
       await this.page.locator(this.cartlink).click() 
 
-      console.log("hello")
-      
-
      }
 
 
