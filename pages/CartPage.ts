@@ -18,6 +18,6 @@ export class CartPage extends Base
      async removeproduct()
      {
           await this.page.locator(this.removebtn).click()   
-          console.log("xyz")       
+          console.log("Changes done to cart")       
      }
 }
