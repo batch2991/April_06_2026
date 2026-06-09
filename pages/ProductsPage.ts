@@ -61,10 +61,7 @@ export class ProductsPage extends Base
       await this.page.locator(this.cartlink).click() 
 
       console.log("hello")
-      console.log("playwright UI testing")     
-      console.log("hello")    
-      console.log("Playwright") 
-      console.log("abcd")
+      
 
      }
 
