@@ -58,10 +58,7 @@ export class ProductsPage extends Base
      }
      async gotoCart()
      {
-      await this.page.locator(this.cartlink).click() 
-      console.log("hello")    
-      console.log("Playwright") 
-      console.log("abcd")
+      await this.page.locator(this.cartlink).click()
      }
 
 
