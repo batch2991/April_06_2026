@@ -20,6 +20,6 @@ export class CartPage extends Base
 
           await this.page.locator(this.removebtn).click()   
           console.log("xyz")   
-          console.log("abcd") 
+          console.log("abcd")
      }
 }
