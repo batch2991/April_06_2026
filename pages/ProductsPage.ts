@@ -62,6 +62,8 @@ export class ProductsPage extends Base
       console.log("hello")    
       console.log("Playwright") 
       console.log("this is new udpate")
+      await this.page.locator(this.cartlink).click()
+
      }
 
 
