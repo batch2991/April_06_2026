@@ -17,8 +17,9 @@ export class CartPage extends Base
      }
      async removeproduct()
      {
+
           await this.page.locator(this.removebtn).click()   
           console.log("xyz")   
-          console.log("abcd")    
+          console.log("abcd") 
      }
 }
